@@ -1,0 +1,338 @@
+.jd-layout {
+    max-width: 414px;
+    min-width: 320px;
+    margin:0 auto;
+}
+
+.jd-topBar {
+    max-width: 414px;
+    min-width: 320px;
+    /*为什么一定要加上以上两个*/
+    height: 40px;
+    width: 100%;
+    background-color: #c91523;
+    position: fixed;
+    top:0;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.jd-topBar .logo {
+    width: 56px;
+    height: 21px;
+    background: url("../img/jd-sprites.png") 0 -109px;
+    background-size: 200px;
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+.jd-topBar .login {
+    position: absolute;
+    right:18px;
+    line-height: 40px;
+}
+
+.jd-topBar .login a {
+    color:#fff;
+}
+
+.jd-topBar .search {
+    height: 30px;
+    background-color: pink;
+    border-radius: 20px;
+    overflow: hidden;
+    margin:5px 59px 0 80px;
+    position: relative;
+}
+
+.jd-topBar .search input {
+    width: 100%;
+    height: 100%;
+    text-indent: 36px;
+}
+
+.jd-topBar .search .search-icon {
+    width: 20px;
+    height: 20px;
+    background: url("../img/jd-sprites.png") -60px -110px;
+    background-size: 200px;
+    position: absolute;
+    top:5px;
+    left:14px;
+}
+
+/* .jd-banner {
+    width: 100%;
+    height: 142px;
+    /* overflow: hidden; 
+}
+
+.jd-banner a {
+    display:block;
+    width: 100%;
+    height: 100%;
+} */
+
+.jd-banner a img {
+    width: 100%;
+}
+
+.jd-menu {
+    width: 100%;
+    height: 152px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.jd-menu ul {
+    height: 100%;
+    width: 100%;
+}
+
+.jd-menu ul li {
+    float: left;
+    width: 25%;
+    height: 50%;
+}
+
+.jd-menu li a {
+    display:block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.jd-menu li a img {
+    width: 39px;
+    height: 39px;
+    display:block;
+    margin:10px auto 8px;
+
+}
+
+.jd-menu li span {
+    color:#666;
+}
+
+.jd-seckill {
+    height: 195px;
+    background-color: #fff;
+}
+
+.seckill-title {
+    height: 35px;
+    position: relative;
+}
+
+.seckill-title .clock-icon {
+    display:block;
+    width: 18px;
+    height: 21px;
+    background: url("../img/jd-sprites.png") -84px -110px;
+    background-size: 200px;
+    position: absolute;
+    top:3px;
+    left:22px;
+}
+
+.seckill-title span {
+    display:block;
+    font-size: 14px;
+    color:#ca1327;
+    line-height: 35px;
+    position: absolute;
+    left:45px;
+}
+
+.seckill-title ul {
+    position: absolute;
+    left:111px;
+    top:10px;
+}
+
+.seckill-title li {
+    float: left;
+   
+}
+
+.seckill-title li.num {
+    width: 16px;
+    height: 16px;
+    background-color: #000;
+    color:#fff;
+    border-radius:4px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.seckill-title .more {
+    display: block;
+    height: 100%;
+    color:#666;
+    position: absolute;
+    right:40px;
+    top:11px;
+}
+
+.seckill-title .more .more-icon {
+    display:block;
+    width: 10px;
+    height: 15px;
+    background: url("../img/jd-sprites.png") -184px -50px;
+    background-size: 200px;
+    position: absolute;
+    top:0;
+    right:-20px;
+}
+
+.jd-seckill .seckill-list {
+    height: 160px;
+}
+
+.seckill-list ul {
+    height: 100%;
+}
+
+.jd-seckill .seckill-list li {
+    float: left;
+    height: 100%;
+    width: 33.3333%;
+}
+
+.seckill-list li a {
+    display:block;
+    /* width: 100%; */
+    height: 100%;
+    text-align: center;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.seckill-list li a img {
+    display:block;
+    width: 110px;
+    height: 110px;
+    margin:0 auto;
+}
+
+.seckill-list li a span {
+    font-size: 14px;
+    color:#f00;
+    display:block;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.seckill-list li a .sell-icon {
+    display:block;
+    width: 34px;
+    height: 36px;
+    background-color: #ffa500;
+    color:#fff;
+    font-weight: 700;
+    line-height: 36px;
+    border-radius:18px;
+    position: absolute;
+    top:80px;
+    left: 88px;
+}
+
+.img {
+    height: 193px;
+    width: 100%;
+    background: url("../uploads/banner_bg.jpg");
+    background-size: 360px 185px;
+    overflow: hidden;
+}
+
+.img .img-list ul {
+    height: 134px;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* padding-left:5px;
+    padding-right: 5px; */
+    margin-bottom: 5px;
+    margin-top: 54px;
+}
+
+.img .img-list ul li {
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color:yellow; */
+}
+
+.img .img-list ul li a {
+    padding-bottom: 5px;
+}
+
+.img .img-list ul li img {
+    width: 100%;
+    height: 100%;
+}
+
+.img-list ul li:last-child img {
+    height: 67px;
+}
+
+.jd-shop {
+    height: 342px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.jd-shop ul:first-child li {
+    width: 33.3333%;
+}
+
+.jd-shop li {
+    float: left;
+    width: 50%;
+
+}
+
+.jd-shop li img {
+    width: 100%;
+}
+
+.bottomBanner {
+    height: 90px;
+    padding:5px;
+    overflow: hidden;
+    margin-bottom: 44px;
+}
+
+.bottomBanner img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    height: 44px;
+    width: 100%;
+    overflow: hidden;
+    max-width: 414px;
+    min-width: 320px;
+    position: fixed;
+    bottom:0;
+    background-color: #fff;
+}
+
+.footer ul {
+    width: 100%;
+    height: 100%;
+}
+
+.footer li {
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 100%;
+}
+
+.footer li img {
+    /* width: 100%; */
+    height: 100%;
+}
